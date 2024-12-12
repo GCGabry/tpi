@@ -1,0 +1,158 @@
+html,body{height:100%;}
+body{background: #50505007;}
+
+/*-----------------------------
+generali
+-----------------------------*/
+
+p{
+	line-height: 22px; 
+	font-family: 'Quicksand', sans-serif; 
+	font-size: 35px;
+	text-align: center;
+	color: #94bcc4;
+}
+
+a{
+	color:#3704f1; 
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+a:hover{color: #000000;}
+
+h1{
+	text-align: center;
+	color: #4f8a98;
+	font-size: 45px;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.foto{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.testolezioni{
+	color: #454647; 
+	font-family: 'Quicksand', sans-serif;
+	font-size: 23px;
+	text-align: center;
+
+}
+
+.descrlezioni{
+	color: #454647; 
+	font-family: 'Quicksand', sans-serif;
+	font-size: 22px;
+	text-align: center;
+	align-content: center;
+
+}
+
+.nextlesson{
+	line-height: 22px; 
+	font-family: 'Quicksand', sans-serif; 
+	font-size: 25px;
+	text-align: center;
+	color: #94bcc4;
+}
+
+/*-----------------------------
+header
+-----------------------------*/
+
+.header{background: #a8d7f794}
+.header__logo{font-size: 22px; color:#454647; float:left;display: block;padding:20px;text-decoration: none; font-family: 'Maven Pro', sans-serif;}
+.header__menu{float:right;margin:0; padding:0;}
+.header__menu__item{display: inline-block; font-family: 'Maven Pro', sans-serif;}
+.header__menu__item a{color:#0d758f;display: block;padding:20px;text-decoration: none}
+.header__menu__item a:hover{color: #2b2b2bdc}
+.header__icon-bar{display: block;float: right;padding:20px;display: none;}
+.header__icon-bar span{display: block;height:3px; width: 30px;background: #fff; margin-bottom: 5px;}
+.testohead{font-size: 18px;}
+
+/*-----------------------------
+footer
+-----------------------------*/
+
+.footer{background: #4e4e4e9a; padding:30px;color:#fff; margin-top: 40px; font-family:'Varela Round', sans-serif; font-size: 22px}
+.footer-text{font-size: 22px; color: #454647;}
+
+/*-----------------------------
+DIV
+-----------------------------*/
+
+.div1 {
+	border: 3px outset rgb(0, 102, 255);
+	background-color: lightblue;
+	text-align: center;
+	left: 25%;
+	position: relative;
+	width: 50%;
+	height: auto;
+}
+
+
+/*-----------------------------
+tablet
+-----------------------------*/
+@media (max-width: 998px){
+	/* banner */
+	.banner__image,
+	.banner__copy{width:50%;height:100%}
+
+}
+
+
+/*-----------------------------
+smartphone
+-----------------------------*/
+@media (max-width: 767px){
+
+	.header{position:fixed; z-index: 100;width:100%}
+	.header__icon-bar{display: block;}
+
+	.header__menu{width:100%;height:0px; overflow: hidden;}
+	.header__menu__item{display: block;}
+	.is-open{height:300px; overflow: auto;}
+
+	/* Cover */
+	.cover{height:100%;}
+
+	/* Cards */
+	.card{width: 90%; margin:5%; }
+
+	/* Banner */
+	.banner{height: 600px;}
+	.banner__image,
+	.banner__copy{width:100%;height:50%}
+
+}
+
+
+/*-----------------------------
+clearfix - sfondo header grigio
+-----------------------------*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
