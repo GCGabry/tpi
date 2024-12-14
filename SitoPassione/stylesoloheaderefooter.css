@@ -21,7 +21,7 @@ footer
 -----------------------------*/
 
 .footer{background: #4e4e4e9a; padding:30px;color:#fff; margin-top: 40px; font-family:'Varela Round', sans-serif; font-size: 22px}
-.footer-text{font-size: 22px; color: #454647;}
+.footer-text{font-size: 22px; color: #454647; 	font-family: 'Quicksand', sans-serif; text-align: center;}
 
 /*-----------------------------
 tablet
